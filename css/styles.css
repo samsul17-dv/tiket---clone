@@ -1,4 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+    --color-primary: #fff;
+    --color-secondary: #000;
+    --color-blue-accent: #005ACC;
+    --font-dm-sans: 'DM Sans', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+    --text-normal: 400;
+    --text-medium: 500;
+    --text-bold: 600;
+    --margin-0: 0;
+    --mt-10: 1rem;
+    --mt-20: 2.5rem;
+    --mt-30: 3rem;
+    --ml-10: 1rem;
+    --ml-20: 2.5rem;
+    --ml-30: 3rem;
+    --mr-10: 1rem;
+    --mr-20: 2.5rem;
+    --mr-30: 3rem;
+    --mb-10: 1rem;
+    --mb-20: 2.5rem;
+    --mb-30: 3rem;
+    --padding-0: 0;
+    --padding-5: 5px;
+    --padding-10: 10px;
+    --flex: flex;
+    --absolute: absolute;
+    --z-index-10: 1;
+    --z-index-999: 999;
+}
+
+body {
+    margin: var(--margin-0);
+    padding: var(--padding-0);
+    background-color: var(--color-primary);
+    font-family: var(--font-dm-sans);
+    font-weight: var(--text-normal);
+}
 
 
 
@@ -8,7 +47,6 @@
 /* End Style Mobile */
 
 /* Style Desktop */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {}
 
-}
 /* End Style Desktop */
